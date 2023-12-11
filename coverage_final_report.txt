@@ -1,0 +1,263 @@
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /top/dcache_cover                               100.00%        100          -    Covered              
+    covered/total bins:                                    20         20          -                      
+    missing/total bins:                                     0         20          -                      
+    % Hit:                                            100.00%        100          -                      
+    type_option.weight=1
+    type_option.goal=100
+    type_option.comment=
+    type_option.strobe=0
+    type_option.merge_instances=auto(0)
+    Coverpoint h                                      100.00%        100          -    Covered              
+        covered/total bins:                                20         20          -                      
+        missing/total bins:                                 0         20          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+ Covergroup instance \/top/dcc#1                      100.00%        100          -    Covered              
+    covered/total bins:                                     5          5          -                      
+    missing/total bins:                                     0          5          -                      
+    % Hit:                                            100.00%        100          -                      
+    option.name=\/top/dcc#1 
+    option.weight=1
+    option.goal=100
+    option.comment=
+    option.at_least=1
+    option.auto_bin_max=64
+    option.cross_num_print_missing=0
+    option.detect_overlap=0
+    option.per_instance=0
+    option.get_inst_coverage=0
+    Coverpoint h                                      100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin MESII[0]                                        2          1          -    Covered              
+        bin MESII[1]                                        4          1          -    Covered              
+        bin MESII[2]                                        4          1          -    Covered              
+        bin MESII[3]                                        3          1          -    Covered              
+        bin STATE                                           1          1          -    Covered              
+ Covergroup instance \/top/dcc#2                      100.00%        100          -    Covered              
+    covered/total bins:                                     5          5          -                      
+    missing/total bins:                                     0          5          -                      
+    % Hit:                                            100.00%        100          -                      
+    option.name=\/top/dcc#2 
+    option.weight=1
+    option.goal=100
+    option.comment=
+    option.at_least=1
+    option.auto_bin_max=64
+    option.cross_num_print_missing=0
+    option.detect_overlap=0
+    option.per_instance=0
+    option.get_inst_coverage=0
+    Coverpoint h                                      100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin MESII[0]                                        2          1          -    Covered              
+        bin MESII[1]                                        3          1          -    Covered              
+        bin MESII[2]                                        4          1          -    Covered              
+        bin MESII[3]                                        3          1          -    Covered              
+        bin STATE                                           1          1          -    Covered              
+ Covergroup instance \/top/dcc#3                      100.00%        100          -    Covered              
+    covered/total bins:                                     5          5          -                      
+    missing/total bins:                                     0          5          -                      
+    % Hit:                                            100.00%        100          -                      
+    option.name=\/top/dcc#3 
+    option.weight=1
+    option.goal=100
+    option.comment=
+    option.at_least=1
+    option.auto_bin_max=64
+    option.cross_num_print_missing=0
+    option.detect_overlap=0
+    option.per_instance=0
+    option.get_inst_coverage=0
+    Coverpoint h                                      100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin MESII[0]                                        2          1          -    Covered              
+        bin MESII[1]                                        3          1          -    Covered              
+        bin MESII[2]                                        4          1          -    Covered              
+        bin MESII[3]                                        3          1          -    Covered              
+        bin STATE                                           1          1          -    Covered              
+ Covergroup instance \/top/dcc#4                      100.00%        100          -    Covered              
+    covered/total bins:                                     5          5          -                      
+    missing/total bins:                                     0          5          -                      
+    % Hit:                                            100.00%        100          -                      
+    option.name=\/top/dcc#4 
+    option.weight=1
+    option.goal=100
+    option.comment=
+    option.at_least=1
+    option.auto_bin_max=64
+    option.cross_num_print_missing=0
+    option.detect_overlap=0
+    option.per_instance=0
+    option.get_inst_coverage=0
+    Coverpoint h                                      100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin MESII[0]                                        2          1          -    Covered              
+        bin MESII[1]                                        4          1          -    Covered              
+        bin MESII[2]                                        3          1          -    Covered              
+        bin MESII[3]                                        3          1          -    Covered              
+        bin STATE                                           1          1          -    Covered              
+ TYPE /top/icache_cover                               100.00%        100          -    Covered              
+    covered/total bins:                                    12         12          -                      
+    missing/total bins:                                     0         12          -                      
+    % Hit:                                            100.00%        100          -                      
+    type_option.weight=1
+    type_option.goal=100
+    type_option.comment=
+    type_option.strobe=0
+    type_option.merge_instances=auto(0)
+    Coverpoint g                                      100.00%        100          -    Covered              
+        covered/total bins:                                12         12          -                      
+        missing/total bins:                                 0         12          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+ Covergroup instance \/top/icc#1                      100.00%        100          -    Covered              
+    covered/total bins:                                     3          3          -                      
+    missing/total bins:                                     0          3          -                      
+    % Hit:                                            100.00%        100          -                      
+    option.name=\/top/icc#1 
+    option.weight=1
+    option.goal=100
+    option.comment=
+    option.at_least=1
+    option.auto_bin_max=64
+    option.cross_num_print_missing=0
+    option.detect_overlap=0
+    option.per_instance=0
+    option.get_inst_coverage=0
+    Coverpoint g                                      100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin MESII[2]                                        3          1          -    Covered              
+        bin MESII[3]                                        5          1          -    Covered              
+        bin STATE                                           2          1          -    Covered              
+ Covergroup instance \/top/icc#2                      100.00%        100          -    Covered              
+    covered/total bins:                                     3          3          -                      
+    missing/total bins:                                     0          3          -                      
+    % Hit:                                            100.00%        100          -                      
+    option.name=\/top/icc#2 
+    option.weight=1
+    option.goal=100
+    option.comment=
+    option.at_least=1
+    option.auto_bin_max=64
+    option.cross_num_print_missing=0
+    option.detect_overlap=0
+    option.per_instance=0
+    option.get_inst_coverage=0
+    Coverpoint g                                      100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin MESII[2]                                        2          1          -    Covered              
+        bin MESII[3]                                        5          1          -    Covered              
+        bin STATE                                           2          1          -    Covered              
+ Covergroup instance \/top/icc#3                      100.00%        100          -    Covered              
+    covered/total bins:                                     3          3          -                      
+    missing/total bins:                                     0          3          -                      
+    % Hit:                                            100.00%        100          -                      
+    option.name=\/top/icc#3 
+    option.weight=1
+    option.goal=100
+    option.comment=
+    option.at_least=1
+    option.auto_bin_max=64
+    option.cross_num_print_missing=0
+    option.detect_overlap=0
+    option.per_instance=0
+    option.get_inst_coverage=0
+    Coverpoint g                                      100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin MESII[2]                                        2          1          -    Covered              
+        bin MESII[3]                                        4          1          -    Covered              
+        bin STATE                                           2          1          -    Covered              
+ Covergroup instance \/top/icc#4                      100.00%        100          -    Covered              
+    covered/total bins:                                     3          3          -                      
+    missing/total bins:                                     0          3          -                      
+    % Hit:                                            100.00%        100          -                      
+    option.name=\/top/icc#4 
+    option.weight=1
+    option.goal=100
+    option.comment=
+    option.at_least=1
+    option.auto_bin_max=64
+    option.cross_num_print_missing=0
+    option.detect_overlap=0
+    option.per_instance=0
+    option.get_inst_coverage=0
+    Coverpoint g                                      100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin MESII[2]                                        2          1          -    Covered              
+        bin MESII[3]                                        5          1          -    Covered              
+        bin STATE                                           2          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 2
